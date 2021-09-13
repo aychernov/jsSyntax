@@ -81,6 +81,7 @@ function App() {
                 <li>++a, a++ - инкремент</li>
                 <li>--a, a-- - декремент</li>
                 <li>NaN - not a number (мат. ошибка вычислений)</li>
+                <li>a.leght - проверка по длине строки</li>
             </ul>
 
 
