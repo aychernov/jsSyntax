@@ -82,6 +82,11 @@ function App() {
                 <li>--a, a-- - декремент</li>
                 <li>NaN - not a number (мат. ошибка вычислений)</li>
                 <li>a.leght - проверка по длине строки</li>
+                <li>let str ='I like JavaScript';
+                    console.log(str[0]); //выведет  "I";
+                    console.log(str[7]); //выведет  "J";
+                    console.log(str[str.length - 1]); //выведет  последний символ строки, т.е. "t";
+                </li>
             </ul>
 
 
