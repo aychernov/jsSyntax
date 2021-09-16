@@ -87,7 +87,11 @@ function App() {
                     console.log(str[7]); //выведет  "J";
                     console.log(str[str.length - 1]); //выведет  последний символ строки, т.е. "t";
                 </li>
-            </ul>
+                <li>
+                    const str = 'sasha';
+                    const lastSymbol = str[str.length- 1];
+                    Последний символ строк
+                </li>
 
 
 
