@@ -92,6 +92,9 @@ function App() {
                     const lastSymbol = str[str.length- 1];
                     Последний символ строк
                 </li>
+                <li>
+                    Конкатенация - сложение строк
+                </li>
 
 
 
