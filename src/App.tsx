@@ -95,7 +95,34 @@ function App() {
                 <li>
                     Конкатенация - сложение строк
                 </li>
-
+                <li>
+                    \n - перевод строки
+                    \", \' - кавычки
+                    \t - знак табуляции
+                    \\ - обратный слеш
+                </li>
+                <li>
+                    const firstWord = 'Happy';
+                    const secondWord = 'New';
+                    const thirdWord = 'Year';
+                    const greeting = firstWord + ' ' + secondWord + ' ' + thirdWord + '!';
+                </li>
+                <li>
+                    let str ='Hello world';
+                    let str2 = "World";
+                    let str3 = `Sum  ${1+2}`;
+                </li>
+                <li>
+                    let price = 30;
+                    let count = 15;
+                    console.log(`Price of ${count} toys is ${price * count} dollars`); // выведет "Price of 15 toys is 450 dollars"
+                </li>
+                <li>
+                    let str ='I like JavaScript';
+                    console.log(str[0]); //выведет  "I";
+                    console.log(str[7]); //выведет  "J";
+                    console.log(str[str.length - 1]); //выведет  последний символ строки, т.е. "t";
+                </li>
 
 
 
