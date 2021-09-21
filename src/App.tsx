@@ -123,7 +123,9 @@ function App() {
                     console.log(str[7]); //выведет  "J";
                     console.log(str[str.length - 1]); //выведет  последний символ строки, т.е. "t";
                 </li>
-
+                <li>
+                    <h4> New title</h4>
+                </li>
 
 
         </div>
