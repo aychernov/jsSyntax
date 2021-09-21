@@ -123,9 +123,22 @@ function App() {
                     console.log(str[7]); //выведет  "J";
                     console.log(str[str.length - 1]); //выведет  последний символ строки, т.е. "t";
                 </li>
-                <li>
-                    <h4> New title</h4>
-                </li>
+
+                <h1>Boolean</h1>
+                <ul>
+                    <li>
+                        let a = 56;                 // переменной a присвоено значение 56
+                        let b = 23;                 // переменной b присвоено значение 23
+                        let comparison = a > b;     // переменной comparison присвоено значение a > b
+                        console.log( comparison );  // в консоль будет выведено true
+                        console.log ( a === b );    // в консоль будет выведено false
+                    </li>
+                    <li>
+                        let a = '1';
+                        let b = 1;
+                        console.log(a == b); //true // == не строгое равенство // === строгое равенство (по типу и значению)
+                    </li>
+                </ul>
 
 
         </div>
