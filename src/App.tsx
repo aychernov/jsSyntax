@@ -124,7 +124,7 @@ function App() {
                     console.log(str[str.length - 1]); //выведет  последний символ строки, т.е. "t";
                 </li>
 
-                <h1>Boolean</h1>
+                <h1>Boolean type</h1>
                 <ul>
                     <li>
                         let a = 56;                 // переменной a присвоено значение 56
@@ -137,6 +137,9 @@ function App() {
                         let a = '1';
                         let b = 1;
                         console.log(a == b); //true // == не строгое равенство // === строгое равенство (по типу и значению)
+                    </li>
+                    <li>
+
                     </li>
                 </ul>
 
